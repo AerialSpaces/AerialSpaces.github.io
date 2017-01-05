@@ -11,7 +11,7 @@ angular.module('HomeApp')
 
 	$scope.saveSpacehub = function() {
 		UserService.registerSpacehub($scope.user).then(function(data){
-			window.location.href = "https://aerialspac.es/registrationSuccess/";
+			window.location.href = "https://aerialspac.es/acct-signup.html";
 		});
 	}
 
