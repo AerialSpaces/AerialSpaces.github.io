@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Project Overview | Dashboard UI Kit</title>
+  <meta name="description" content="Dashboard UI Kit">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <header class="c-navbar">
+    <a class="c-navbar__brand" href="#!">
+      <img src="img/logo.png" alt="Dashboard's Logo">
+    </a>
+
+    <!-- Navigation items that will be collapes and toggle in small viewports -->
+    <nav class="c-nav collapse" id="main-nav">
+      <ul class="c-nav__list">
+        <h2 class="c-navbar__title u-mr-auto">Space Name</h2>
+
+        <li class="c-nav__item">
+          <div class="c-field c-field--inline has-icon-right u-hidden-up@tablet">
+            <span class="c-field__icon">
+              <i class="fa fa-search"></i>
+            </span>
+
+            <label class="u-hidden-visually" for="navbar-search-small">Seach</label>
+            <input class="c-input" id="navbar-search-small" type="text" placeholder="Search">
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <!-- // Navigation items  -->
+
+    <div class="c-field has-icon-right c-navbar__search u-hidden-down@tablet u-ml-auto u-mr-small"></div>
+
+    <ul class="c-nav__list">
+      <li class="c-nav__item u-pr-small">
+        <a class="c-nav__link" href="#!">Analytics</a>
+      </li>
+    </ul>
+
+
+    <div class="c-dropdown dropdown">
+      <a  class="c-avatar c-avatar--xsmall has-dropdown dropdown-toggle" href="#" id="dropdwonMenuAvatar" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img class="c-avatar__img" src="img/avatar-72.jpg" alt="User's Profile Picture">
+      </a>
+
+      <div class="c-dropdown__menu dropdown-menu dropdown-menu-right" aria-labelledby="dropdwonMenuAvatar">
+        <a class="c-dropdown__item dropdown-item" href="#">Org Name</a>
+        <a class="c-dropdown__item dropdown-item" href="#">New Space</a>
+        <a class="c-dropdown__item dropdown-item" href="#">Settings</a>
+        <a class="c-dropdown__item dropdown-item" href="#">Log out</a>
+      </div>
+    </div>
+
+    <button class="c-nav-toggle" type="button" data-toggle="collapse" data-target="#main-nav">
+      <span class="c-nav-toggle__bar"></span>
+      <span class="c-nav-toggle__bar"></span>
+      <span class="c-nav-toggle__bar"></span>
+    </button><!-- // .c-nav-toggle -->
+  </header>
+
+  <div class="c-toolbar u-justify-between u-mb-medium">
+    <nav class="c-counter-nav">
+      <p class="c-counter-nav__title">Create an event:</p>
+      <div class="c-counter-nav__item u-hidden-down@tablet">
+        <a class="c-counter-nav__link" href="#">
+          <span class="c-counter-nav__counter"><i class="fa fa-check"></i></span>Basics
+        </a>
+      </div>
+      <div class="c-counter-nav__item u-hidden-down@tablet">
+        <a class="c-counter-nav__link" href="#">
+          <span class="c-counter-nav__counter"><i class="fa fa-check"></i></span>People
+        </a>
+      </div>
+      <div class="c-counter-nav__item">
+        <a class="c-counter-nav__link is-active" href="#">
+          <span class="c-counter-nav__counter">3</span>Props
+        </a>
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-xl-6 u-m-auto">
+        <main>
+          <h2 class="u-h3 u-mb-small">Props</h2>
+
+          <div class="c-card u-p-medium u-text-small u-mb-small">
+            <h6 class="u-text-bold">Superpower your live event with props</h6>
+
+            <dt class="u-pv-small">Select a type of supporting media to integrate right into your live event.
+              <!-- <small class="u-block u-text-mute">Admin have full access to edit all details of this event.</small> -->
+            </dt>
+
+            <div class="c-fileitem">
+              <div class="c-fileitem__content">
+                <div class="c-fileitem__img">
+                  <!-- <img src="img/recent1.jpg" alt="File's image"> -->
+                  <a class="c-profile-card__social-icon c-avatar c-avatar--small u-bg-document" href="#">
+                    <i class="fa fa-file"></i>
+                  </a>
+
+                </div>
+
+                <p class="c-fileitem__name">
+                  Document
+                </p>
+              </div>
+            </div>
+
+            <div class="c-fileitem">
+              <div class="c-fileitem__content">
+                <div class="c-fileitem__img">
+                  <!-- <img src="img/recent1.jpg" alt="File's image"> -->
+                  <a class="c-profile-card__social-icon c-avatar c-avatar--small u-bg-document" href="#">
+                    <i class="fa fa-file"></i>
+                  </a>
+
+                </div>
+
+                <p class="c-fileitem__name">
+                  Santorini.pdf
+                </p>
+              </div>
+            </div>
+
+            <div class="c-field">
+              <select class="c-select c-select--multiple" id="select1">
+                <option>frankchen@walrus.co</option>
+                <option>rosegrant@gmail.com</option>
+                <option>warrenmartinez@gmail.com</option>
+              </select>
+            </div>
+          </div>
+
+        </main>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="c-toolbar c-toolbar-bottom-fixed">
+  <a class="u-mr-auto u-text-small u-text-mute">Back</a>
+  <a class="c-btn c-btn--info" href="rosa-org-upcoming-events-added.html">Finish</a>
+</div>
+
+<style media="screen">
+.c-toolbar-bottom-fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -1px 1px 0 rgba(0,0,0,.07);
+}
+
+.u-bg-document {
+  background-color: #E67D73;
+}
+
+.u-bg-form {
+  background-color: #F6BF26;
+}
+
+.u-bg-spreadsheet {
+  background-color: #33B679;
+}
+
+.u-bg-facebook {
+  background-color: #4168A7;
+}
+
+.u-bg-website {
+  background-color: #9E69AF;
+}
+
+.u-bg-audio {
+  background-color: #A79B8E;
+}
+
+.u-bg-map {
+  background-color: #D50001;
+}
+
+.u-bg-image {
+  background-color: #F09300;
+}
+
+.u-bg-slideshow {
+  background-color: #E67D73;
+}
+
+.u-bg-twitter {
+  background-color: #E67D73;
+}
+
+.u-bg-video {
+  background-color: #E67D73;
+}
+
+.u-bg-calendar {
+  background-color: #E67D73;
+}
+</style>
+
+
+<script src="js/main.min.js"></script>
+</body>
+</html>
